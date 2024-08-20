@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <div class="bg-container">
+        <div class="inner-container">
+            <div class="box login-form">
+                <h1>Login</h1>
+                <form id="login-form">
+                    <input type="text" id="username" name="username" placeholder="Username" required />
+                    <input type="password" id="password" name="password" placeholder="Password" required />
+                    <button type="button" id="login-btn">Login</button>
+                </form>
+                <p>Not a member? <span id="signup-link">Sign Up</span></p>
+            </div>
+
+            <div class="box signup-form" id="signup-form">
+                <h1>Sign Up</h1>
+                <form>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="First Name" required />
+
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name" required />
+
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" placeholder="Address" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required />
+
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" name="password" placeholder="Password" required />
+
+                    <button type="submit">Sign Up</button>
+                </form>
+                <p>Already a member? <span id="login-link">Login</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
